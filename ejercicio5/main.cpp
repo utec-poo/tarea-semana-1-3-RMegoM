@@ -4,15 +4,23 @@ using namespace std;
 
 int main() {
 
-entero numero;
-caracter crt;
+    int x;
+    int pares=0;
+    int impares=0;
+    do{
+      cin>>x;
+      if(x%2==0){
+        pares++;
+      }
+      if(x%2!=0){
+        impares++;
+      }
 
-cout << "ingrese el caracter:";
-cin >> crt;
-cout << "\ningrese el numero:";
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
+    }
+    while (x!=0);
+    cout<<"Total de números: "<<pares+impares-1<<endl;
+    cout<<"Total de pares: "<<pares-1<<endl;
+    cout<<"Total de impares: "<<impares<<endl; 
+  system("pause");
   return 0;
 }
