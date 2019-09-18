@@ -10,7 +10,7 @@ cout << "\ningrese la base:";
 cin >> base;
 cout << "\ningrese la altura:";
 cin >> altura;
-int area;
+float area;
 area=base*altura/2;
 cout<<area;
 
