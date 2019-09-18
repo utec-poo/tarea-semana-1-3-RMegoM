@@ -4,11 +4,15 @@ using namespace std;
 
 int main() {
 
-entero base=0, entero altura=0;
+int base=0;
+int altura=0;
 cout << "\ningrese la base:";
 cin >> base;
 cout << "\ningrese la altura:";
 cin >> altura;
+int area;
+area=base*altura/2;
+cout<<area;
 
 
 // ToDO
