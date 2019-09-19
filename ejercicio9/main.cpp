@@ -3,13 +3,15 @@
 #include "MyFunc.h"
 using namespace std;
 int main() {
-    l_enteros segundos;
-    enteros horas, min, seg;
+    int n;
+    int hora, minuto, segundo;
 
     do {
         cout << "Segundos: ";
-        cin >> segundos;
-    } while (segundos <1);
+        cin >> n;
+        cout<< convertir(n,hora,minutos,segundo);
+    } 
+    while (segundos <1);
 
     // ToDO
     return 0;
