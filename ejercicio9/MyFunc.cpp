@@ -1,6 +1,6 @@
 #include "MyFunc.h"
 
-int invertir(long int n, int hora, int minuto, int segundo){
+int convertir(long int n, int hora, int minuto, int segundo){
   long int n;
   //calculamos la hora//
   if(n/3600>0){
