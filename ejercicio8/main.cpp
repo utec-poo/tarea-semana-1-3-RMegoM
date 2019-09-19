@@ -3,13 +3,16 @@
 using namespace std;
 
 int main() {
+  int x;
+  cout<<"número: ";
+  cin>>x;
+  for(int i=0;i<=x;i++){
+    for(int j=0;j<i;j++){
+      cout<<"*";
+    }
+    cout<<endl;
 
-entero numero;
+  }
 
-cout << "\ningrese el numero:";
-cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+return 0;
 }
