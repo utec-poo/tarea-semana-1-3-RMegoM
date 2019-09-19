@@ -4,13 +4,26 @@ using namespace std;
 
 int main() {
 
-entero numero;
-caracter crt;
+int x;
+char n;
 
 cout << "ingrese el caracter:";
-cin >> crt;
+cin >> n;
 cout << "\ningrese el numero:";
-cin >> numero;
+cin >> x;
+      if(n == 'a' || n == 'c' || n =='e' || n== 'g'){
+        if(x%2 != 0){
+            cout<<"black";
+        }
+        else
+            cout<<"white";
+    }
+    else
+        if(x%2 == 0) {
+            cout<<"black";
+        }
+        else
+            cout<<"white";
 
 // ToDO
 // implemente el algoritmo.
