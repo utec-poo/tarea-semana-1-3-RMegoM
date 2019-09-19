@@ -2,6 +2,6 @@
 #define PRO_MYFUNC_H
 
 
-void Convertir(int n, int hora, int minuto, int segunso);
+void Convertir(long int n, int hora, int minuto, int segunso);
 
 #endif //PRO_MYFUNC_H
