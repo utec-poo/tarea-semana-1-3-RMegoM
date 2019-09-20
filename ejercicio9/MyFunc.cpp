@@ -1,10 +1,10 @@
 #include "MyFunc.h"
 
 int convertir(long int n, int hora, int minuto, int segundo){
-  long int n;
-  //calculamos la hora//
+  cout<<"Tiempo en segundo: ";
+  cin>>n;
   if(n/3600>0){
-    hora=a;
+    hora=n/3600;
   }
   else{
     hora=00;
@@ -24,5 +24,6 @@ int convertir(long int n, int hora, int minuto, int segundo){
   else{
     segundo=00;
   }
-  cout<<hora<<":"<<minuto<<":"<<segundo;
+  cout<<hora<<":"<<minuto<<":";
+  return segundo;
 }
