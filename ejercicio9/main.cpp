@@ -4,14 +4,11 @@
 using namespace std;
 int main() {
     int n;
-    int hora, minuto, segundo;
-
-    do {
-        cout << "Segundos: ";
-        cin >> n;
-        cout<< convertir(n,hora,minutos,segundo);
-    } 
-    while (segundos <1);
+    int hora=0;
+    int minuto=0;
+    int segundo=0;
+    cout<< convertir(n,hora,minutos,segundo);
+  
 
     // ToDO
     return 0;
